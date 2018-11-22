@@ -1,0 +1,69 @@
+.banner{
+		height: 3.72rem;
+		width: 7.3rem;
+		border-radius: 0.1rem;
+		margin: auto;
+		color: #FFFFFF;
+		font-size: 0.22rem;
+	}
+	.banner img{
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+	.syTit{
+		font-size:0.3rem;
+		 text-align: center;
+		 height: 0.3rem;
+		 line-height: 0.3rem;
+		 margin: 0.3rem auto;
+		 font-weight: normal;
+		 color: #FFFFFF;
+	}
+	.bz{
+		width: 7.02rem;
+		height: 1.5rem;
+		margin: auto;
+		margin-bottom: 0.2rem;
+		border-radius: 0.1rem;
+		display: flex;
+		justify-content: space-between;
+		font-size: 0.28rem;
+		color: #FFFFFF;
+		background-image: url(/static/common/sy/sylistbg.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		align-items: center;
+		position: relative;
+	}
+	.bz > img{
+		width: 0.56rem;
+		height: 0.56rem;
+		position: absolute;
+		top: 0.45rem;
+		left: 0.3rem;
+	}
+	.bz >div >h4{
+		font-size: 0.44rem;
+	}
+	.bz >div >span{
+		font-size: 0.22rem;
+	}
+	
+	.bz >div{
+		padding: 0 1rem;
+	}
+	
+	.dq{
+		background: url(/static/common/bai.png) no-repeat right center;
+		padding-right: 0.3rem!important;
+		background-size: 0.15rem 0.25rem;
+		margin-right: 0.3rem;
+	}
+	.waits{
+		background: url(/static/common/huisanjiao.png) no-repeat right center;
+		padding-right: 0.3rem!important;
+		background-size: 0.15rem 0.25rem;
+		margin-right: 0.3rem;
+	}
+	

@@ -1,0 +1,229 @@
+div{
+		color: #FFFFFF;
+		font-size: 0.26rem;
+	}
+.userDiv{
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	height: 100vh;
+	background: url(/static/common/user/wodebg.png) no-repeat;
+	background-size: 100% 100%;
+}
+.userHead{
+	width: 6.9rem;
+	height: 0.55rem;
+	margin: auto;
+	margin-top: 1rem;
+	font-size: 0.48rem;
+	margin-bottom: 0.45rem;
+}
+
+.userHead img{
+	padding: 0 0.15rem;
+}
+
+.userblock{
+	width: 6.9rem;
+	height: 1.28rem;
+	border-radius: 0.1rem;
+	background:url(/static/common/user/wode.png) no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	margin-bottom: 0.25rem;
+	color: rgb(208,208,208);
+	font-size: 0.28rem;
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.userblock >img{
+	padding: 0 0.15rem;
+	width: 0.42rem;
+	padding-left: 0.3rem;
+}
+.userR{
+	position: absolute;
+	right: 0.05rem;
+	top: 0.5rem;
+	width: 0.2rem!important;
+	height: 0.3rem;
+}
+
+.header{
+	background-color: #1f232d;
+	position: relative;
+}
+
+.fanhui{
+	float: left;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/* position: absolute; */
+	left: 0.3rem;
+}
+
+.fanhui img{
+	width: 0.2rem;
+}
+.loginS{
+	font-size: 0.6rem;
+	margin-top: 0.9rem;
+	padding-left: 0.5rem;
+	margin-bottom:1.3rem;
+}
+.land{
+	width: 5.5rem;
+	height: 0.88rem;
+	margin: 0.5rem auto;
+	background-color: rgb(209,162,107);
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.3rem;
+	border-radius: 0.5rem;
+}
+
+.loginTel,.loginYzm{
+	width: 6.34rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	border-bottom: 0.01rem solid rgb(62,68,76);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.loginTel >input{
+	width: 100%;
+}
+
+.loginTel>input,.loginYzm>input{
+	border: none;
+	width: 70%;
+	height: 0.6rem;
+	color: #FFFFFF;
+	background-color: transparent;
+	outline: none;
+}
+
+.fsyzm{
+	color: rgb(209,162,107);
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+.telmassage{
+	width: 6.34rem;
+    margin: 0.15rem auto;
+    color: red;
+}
+
+.wellLogin{
+		background-color: #1f232d;
+		color: #FFFFFF;
+	}
+	.header{
+		background-color: #1f232d;
+		position: relative;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 0.2rem;
+	}
+	
+	.fanhui img{
+		width: 0.2rem;
+	}
+	.loginS{
+		font-size: 0.6rem;
+		margin-top: 0.9rem;
+		padding-left: 0.5rem;
+		margin-bottom:1.3rem;
+	}
+	.land{
+		display: block;
+		border: none;
+		outline: none;
+		color: #FFFFFF;
+		width: 5.5rem;
+		height: 0.88rem;
+		margin:  auto;
+		margin-top: 0.5rem;
+		background-color: rgb(209,162,107);
+		text-align: center;
+		line-height: 0.88rem;
+		font-size: 0.3rem;
+		border-radius: 0.5rem;
+	}
+	.request{
+		border: none;
+		outline: none;
+		display: block;
+		width: 100%;
+		background-color: transparent;
+		text-align: center;
+		color: #FFFFFF;
+		margin-top: 0.2rem;
+	}
+	.loginTel,.loginYzm{
+		width: 6.34rem;
+		height: 0.9rem;
+		margin: 0 auto;
+		border-bottom: 0.01rem solid rgb(62,68,76);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	
+	.loginTel>input,.loginYzm>input{
+		border: none;
+		height: 0.6rem;
+		color: #FFFFFF;
+		background-color: transparent;
+		outline: none;
+	}
+	
+	.fsyzm{
+		color: rgb(209,162,107);
+		background-color: transparent;
+		border: none;
+		outline: none;
+	}
+	
+	.telmassage{
+		width: 6.34rem;
+	    margin: 0.15rem auto;
+	    color: red;
+	}
+	
+.tuichu{
+	width: 6.9rem;
+	height: 1.28rem;
+	background-color: #FFFFFF;
+	border-radius: 0.2rem;
+	line-height: 1.28rem;
+	text-align: center;
+	color: #000000;
+	margin: 0.3rem auto;
+}
+#tuichu{
+	text-align: center;
+	width: 6.9rem;
+	height: 1.28rem;
+	line-height: 1.28rem;
+	border-radius: 0.1rem;
+	background:url(/static/common/user/wode.png) no-repeat;
+	background-size: 100% 100%;
+	margin: auto;
+	margin-bottom: 0.25rem;
+	color: rgb(208,208,208);
+	font-size: 0.28rem;
+}
+.loginTel >input{
+	width: 100%;
+}
+
+
+
+

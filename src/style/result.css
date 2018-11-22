@@ -1,0 +1,197 @@
+.header{
+	width: 100%;
+	position: fixed;
+	top:0;
+	background-color: rgb(31,34,45);
+}
+.resultDiv{
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	padding-top:2rem;
+	background-color: rgb(31,34,45);
+	padding-bottom: 0.95rem;
+}
+.resultList{
+	width:7.14rem;
+	height: 3.08rem;
+	margin:  auto;
+	margin-bottom: 0.2rem;
+	background: url(/static/common/resultListbg.png) no-repeat;
+	background-size: 100% 100%;
+	/* padding: 0 0.2rem; */
+}
+
+.resultTop{
+	height: 1.7rem;
+	padding-top: 0.2rem;
+	border-bottom:0.01rem solid rgb(69,75,82);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	    width: 6.6rem;
+    margin: auto;
+	padding-left: 0.3rem;
+}
+
+.coinImg{
+	width: 1.14rem;
+	height: 1.14rem;
+	border: 0.01rem solid rgb(72,79,86);
+	margin: 0 0.3rem;
+	margin-left: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	font-size: 0.24rem;
+	color: #FFFFFF;
+	align-items: center;
+}
+.coinImg img{
+	width: 0.54rem;
+	height: 0.54rem;
+}
+.coinInfo{
+	flex: 1;
+	height: 1.21rem;
+	font-size: 0.26rem;
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	letter-spacing: 0.01rem;
+}
+.coinInfo span{
+	color: rgb(234,185,127);
+}
+.resultBot{
+	height: 1rem;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.2rem;
+	align-items: center;
+	color: #FFFFFF;
+	padding-left: 0.3rem;
+	width: 6.6rem;
+	margin: auto;
+}
+
+.resultBot span{
+	color: rgb(234,185,127);
+	padding: 0 0.1rem;
+}
+
+.ckz{
+	background-color: #c59f6e;
+	width: 1.2rem;
+	height: 0.6rem;
+	border-radius: 0.1rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.22rem;
+	    margin-right: 0.3rem;
+}
+
+
+
+.referDiv{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.66);
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.refer{
+	width: 5.4rem;
+	height: 6.5rem;
+	background: url(/static/common/sy/refBg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.refer ul{
+	font-size: 0.24rem;
+	width: 4.5rem;
+	margin: 1.2rem auto 0 auto;
+	color: #666666;
+	list-style: none;
+}
+.refer ul li{
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+
+.iknow{
+	font-size: 0.3rem;
+	width: 3.2rem;
+	height: 0.8rem;
+	background-color: #ebba7b;
+	color: #FFFFFF;
+	display: block;
+	text-align: center;
+	line-height: 0.8rem;
+	border: none;
+	outline: none;
+	border-radius: 0.5rem;
+	margin: auto;
+	margin-top: 0.5rem;
+}
+
+.search{
+	    height: 0.9rem;
+    background-color: #1a1c25;
+    margin-bottom: 0.3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 0.9rem;
+    position: fixed;
+    width: 100%;
+    /* top: 0.9rem; */
+    z-index: 99;
+}
+.inputDiv{
+	width: 6.8rem;
+	height: 0.55rem;
+	
+	border-radius: 0.1rem;
+	background: url(/static/common/sy/fangda.png) no-repeat 0.2rem center;
+	background-size:0.26rem 0.26rem; 
+	display: flex;
+	align-items: center;
+	background-color:#1f222d ;
+}
+.inputDiv >form {
+	height: 0.55rem;
+	display: flex;
+	align-items: center;
+}
+.inputDiv  input{
+	height: 0.5rem;
+	width: 5.8rem;
+	border: none;
+	outline: none;
+	margin-left: 0.6rem;
+	background-color: transparent;
+	/* background: url(/static/common/sy/clears.png) no-repeat right center;
+	background-size: 0.2rem 0.2rem; */
+	color: #FFFFFF;
+}
+
+
+
+
+
+

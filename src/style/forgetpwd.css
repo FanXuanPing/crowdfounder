@@ -1,0 +1,92 @@
+.pwdDiv{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #1f222d;
+	}
+	.header{
+		background-color: #1f232d;
+		position: relative;
+	}
+	
+	.fanhui{
+		float: left;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;
+		left: 0.3rem;
+	}
+	
+	.fanhui img{
+		width: 0.2rem;
+	}
+	
+	.forgetfrom{
+		width: 6.45rem;
+		margin: 0.8rem auto;
+		font-size: 0.26rem;
+		color: #FFFFFF;
+	}
+	.forgetfrom >div{
+		height: 0.9rem;
+		border-bottom: 0.01rem solid #3e444c;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.forgetfrom >div>input{
+		display: block;
+		width: 70%;
+		height: 95%;
+		border: none;
+		outline: none;
+		background-color: #1f222d;
+		color: #FFFFFF;
+	}
+	
+	.forgetfrom >div>button{
+		color: #d1a26b;
+		border: none;
+		outline: none;
+		background-color: transparent;
+	}
+	
+	.forgetfrom > button{
+		display: block;
+		background-color: #d1a26b;
+		width: 5.5rem;
+		height: 0.85rem;
+		text-align: center;
+		margin: 0.45rem auto;
+		line-height: 0.85rem;
+		color: #FFFFFF;
+		font-size: 0.3rem;
+		border: none;
+		outline: none;
+		border-radius: 0.5rem;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,129 @@
+.header{
+		background-color: #1f232d;
+		position: relative;
+	}
+	
+	.fanhui{
+		float: left;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;
+		left: 0.3rem;
+	}
+	
+	.fanhui img{
+		width: 0.2rem;
+	}
+	.mybilldiv{ 
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-color:  #1f232d;
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	.checks{
+		display: flex;
+		height: 0.3rem;
+		margin: 0.3rem 0;
+	}
+	.checks >div{
+		width: 50%;
+		color: #dcdcdc;
+		font-size: 0.26rem;
+		text-align: center;
+		line-height: 0.3rem;
+	}
+	.allCoin{
+		border-right: 0.01rem solid #dcdcdc;
+	}
+	.coinUl{
+		list-style: none;
+		color: #FFFFFF;
+		font-size: 0.26rem;
+		margin-top: 0.5rem;
+		max-height: 8rem;
+		overflow-y: auto;
+	}
+	.coinUl li{
+		text-align: center;
+		height: 0.7rem;
+		line-height: 0.7rem;
+	}
+	
+	
+	.billList{
+		flex: 1;
+		background-color: transparent;
+		overflow-y: auto;
+	}
+	
+	.billItem{
+		border-bottom: 0.03rem solid #252731;
+		height: 2.15rem;
+		padding: 0 0.3rem;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+	}
+	.itemtit{
+		color: #FFFFFF;
+		font-size: 0.24rem;
+		margin-top: 0.36rem;
+	}
+	.itembot{
+		flex: 1;
+		background-color: transparent;
+		display: flex;
+		font-size: 0.24rem;
+		color: #FFFFFF;
+		justify-content: flex-start;
+	}
+	.itembot>div{
+		width: 33%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: #999;
+	}
+	.itembot>div:nth-child(1){
+		align-items: flex-start;
+	}
+	.itembot>div:nth-child(3){
+		align-items: flex-end;
+	}
+	.itembot>div>p{
+		height: 0.5rem;
+		line-height: 0.5rem;
+	}
+	
+	.tops{
+		background: url(/static/common/user/tops.png) no-repeat 2.5rem center;
+		background-size: 0.25rem 0.13rem;
+	}
+	.bots{
+		background: url(/static/common/user/bottoms.png) no-repeat 2.5rem center;
+		background-size: 0.25rem 0.13rem;
+	}
+	
+	.kongbai{
+		flex: 1;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

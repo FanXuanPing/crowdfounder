@@ -1,0 +1,443 @@
+/* 开奖界面 */
+.openPrize{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	
+} 
+.header{
+	background-color: #1f232d;
+	position: relative;
+}
+.header > span{
+	position: absolute;
+	right: 0.2rem;
+	font-size: 0.24rem;
+	color: rgb(234,185,127);
+}
+.fanhui{
+	float: left;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: absolute;
+	left: 0.3rem;
+}
+
+.fanhui img{
+	width: 0.2rem;
+}
+
+.coinShows{
+	background-color:  #1f232d;
+	height: 6.3rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.coinBi{
+	width: 1rem;
+	height: 1rem;
+	border-radius: 100%;
+	margin-top: 0.6rem;
+}
+.coinBi img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.reward{
+	font-size: 0.6rem;
+	color: rgb(234,185,127);
+	margin-top: 0.25rem;
+}
+
+.xiaoxi{
+	font-size: 0.22rem;
+	border-radius: 0.2rem;
+	margin-top: 0.35rem;
+	color: #abadb1;
+	margin-bottom: 0.4rem;
+}
+
+.range{  
+	width: 90%;
+	position: relative;
+}
+
+.rangeShow{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.3rem;
+	color: #FFFFFF;
+}
+.xiaoxi{
+	letter-spacing: 0.02rem;
+}
+.rangeShow >div{
+	width: 33%;
+	height: 0.7rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.rangeShow >div>p{
+	font-size: 0.22rem;
+	color: #e5e5e5;
+}
+.rangeShow >div:nth-child(1){
+	text-align: left;
+}
+.rangeShow >div:nth-child(2){
+	text-align: center;
+}
+.rangeShow >div:nth-child(3){
+	text-align: right;
+}
+
+.coinShop{
+	width: 6.9rem;
+	height: 3.6rem;
+	background: url(/static/common/openlistbg.png) no-repeat;
+	background-size: 100% 100%;
+	border-radius: 0.2rem;
+	margin: auto;
+	padding:0.3rem 0.2rem;
+	margin-top: -1.15rem;
+}
+
+.personInfo{
+	width: 6.9rem;
+	/* flex: 1;
+	overflow-y: auto; */
+	margin:0 auto;
+}
+
+.personInfoTit{
+	margin-top: 0.2rem;
+	width: 6.9rem;
+	margin: auto;
+	display: flex;
+	font-size: 0.24rem;
+	justify-content: center;
+	font-weight: normal;
+	margin-bottom: 0.1rem;
+}
+.personInfoTit >span:nth-child(1){
+	width: 35%;
+}
+.personInfoTit >span:nth-child(2){
+	width: 30%;
+	text-align: center;
+}
+.personInfoTit >span:nth-child(3){
+	width: 35%;
+	text-align: right;
+}
+
+.personInfoDiv{
+	list-style: none;
+	font-size: 0.2rem;
+}
+.personInfoDiv li{
+	height: 0.76rem;
+	line-height: 0.76rem;
+	border-bottom: 0.01rem solid #EEEEEE;
+	display: flex;
+	justify-content: center;
+}
+.personInfoDiv li >span:nth-child(1){
+	text-align: left;
+	width: 35%;
+}
+.personInfoDiv li >span:nth-child(2){
+	width: 30%;
+	text-align: center;
+}
+.personInfoDiv li >span:nth-child(3){
+	width: 35%;
+	text-align: right;
+}
+.coinTit{
+	height: 0.85rem;
+	border-bottom: 0.01rem solid #CCCCCC;
+	font-size: 0.24rem;
+	display: flex;
+	line-height: 0.85rem;
+}
+
+.coinTit >div {
+	/* padding-left: 0.3rem; */
+	flex: 1;
+}
+.coinTit >div>span{
+	color: rgb(235,190,138);
+}
+
+.touzhu{
+	margin-top: 0.4rem;
+	height: 0.85rem;
+	font-size: 0.3rem;
+	display: flex;
+	line-height: 0.85rem;
+	padding-left: 0.05rem;
+}
+
+.bettingFrame{
+	width: 3.25rem;
+	height: 0.85rem;
+	border: 1px solid rgb(213,213,213);
+	border-radius: 0.4rem;
+	display: flex;
+	color: rgb(139,142,147);
+}
+.bettingFrame div:nth-child(1){
+	width: 30%;
+	text-align: center;
+}
+
+.bettingFrame div:nth-child(2) input{
+	width: 95%;
+    height: 93%;
+    text-align: center;
+    outline: none;
+    border: none;
+	font-size: 0.3rem;
+}
+.bettingFrame div:nth-child(2){
+	width: 40%;
+	text-align: center;
+	border-left: 0.01rem solid #ccc;
+	border-right: 0.01rem solid #ccc;
+	box-sizing: border-box;
+}
+.bettingFrame div:nth-child(3){
+	width: 30%;
+	text-align: center;
+}
+.touzhu >span{
+	padding: 0 0.2rem;
+	color: rgb(139,142,147);
+}
+.bettingBtn{
+	width: 1.8rem;
+	height: 100%;
+	background-color: rgb(234,185,127);
+	color: #FFFFFF;
+	border-radius: 0.4rem;
+	text-align: center;
+	border: none;
+	outline: none;
+	font-size: 0.26rem;
+}
+
+.xzBetting{
+	    width: 6.42rem;
+    height: 0.85rem;
+    border: 0.02rem solid rgb(225,214,200);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 0.28rem;
+    margin: auto;
+    margin-top: 0.3rem;
+    border-radius: 0.08rem;
+    overflow: hidden;
+}
+.xzBetting >div{
+	    padding: 0.02rem;
+	border-right: 0.01rem solid rgb(225,214,200);
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 0.85rem;
+	background-color: rgb(255,251,247);
+	color: #333333;
+}
+
+
+
+/* 开奖密码弹窗 */
+.pwdwin{
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 999;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.windiv{
+	width: 5.65rem;
+	height: 4.7rem;
+	background-color: #FFFFFF;
+	border-radius: 0.2rem;
+	margin-top: 2.8rem;
+}
+
+.windiv >h2{
+	height: 1rem;
+	border-bottom: 0.01rem solid #d5d5d5;
+	font-size: 0.3rem;
+	line-height: 1rem;
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+}
+.windiv >h2 >img{
+	position: absolute;
+	left: 0.2rem;
+	top: 0.38rem;
+	width: 0.24rem;
+	height: 0.24rem;
+}
+.captials{
+	text-align: center;
+	font-size: 0.5rem;
+	font-weight: 500;
+	padding-top: 0.3rem;
+}
+.cointypes{
+	display: block;
+	text-align: center;
+	font-size: 0.3rem;
+	padding-top: 0.1rem;
+	padding-bottom: 0.35rem;
+}
+
+.cappwd{
+	border-top: 0.01rem solid #d5d5d5;
+}
+
+.capsBtn{
+	width: 5.15rem;
+	margin: auto;
+	height: 1rem;
+	margin-top:0.35rem ;
+	background: url(/static/common/kuang.png) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.capsBtn >input{
+	display: inline-block;
+	height: 100%;
+	width: 16.6%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: 0.4rem;
+	text-align: center;
+}
+
+/* 数字键盘 */
+.keyboard{
+	width: 100%;
+}
+.keyboard ul{
+	list-style: none;
+	color: #000;
+	font-size: 0.3rem;
+	display: flex;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+}
+
+.keyboard ul>li{
+	width: 33.3%;
+	height: 0.8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border-right: 0.01rem solid #CCCCCC;
+	border-bottom: 0.01rem solid #CCCCCC;
+}
+
+
+/* 游戏规则 */
+.gameresult{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	z-index: 99;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.gresult{
+	width: 5.46rem;
+	height: 7rem;
+	background: url(/static/common/gameresult.png) no-repeat;
+	background-size: 100% 100%;
+}
+.gresult>div{
+	width: 80%;
+	margin: auto;
+	margin-top: 1rem;
+}
+.gresult>div>button{
+	background-color: #ebba7b;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	display: block;
+	width: 3.25rem;
+	height: 0.82rem;
+	margin: auto;
+	border-radius: 0.5rem;
+	margin-top: 0.2rem;
+}
+.gresult ul{
+	list-style: none;
+	font-size: 0.24rem;
+	color: #000;
+	line-height: 0.4rem;
+}
+.gresult ul>li{
+	color: #333333;
+	display: flex;
+	letter-spacing: 0.01rem;
+}
+.gresult ul>li>span{
+	width: 1.3rem;
+	text-align: right;
+}
+.gresult ul>li> p{
+	width: 3.2rem;
+	margin-left: 0.15rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,153 @@
+.header{
+			background-color: rgb(31,34,45);
+			position: fixed;
+			width: 100%;
+			top: 0;
+			left: 0;
+		}
+		.fanhui{
+			float: left;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			position: absolute;
+			left: 0.3rem;
+		}
+		.fanhui img{
+			width: 0.2rem;
+		}
+		.mycharge{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+			height: 100vh;
+		}
+		.chargeDiv{
+			flex: 1;
+			background-color: #1f222d;
+			margin-top: 0.9rem;
+		}
+		.chargeTop{
+			height: 2.3rem;
+			padding: 0 0.35rem;
+		}
+		.chargeTop h3{
+			color: #eab97f;
+			font-size: 0.5rem;
+			margin-top: 0.4rem;
+			font-weight: normal;
+		}
+		.zichan{
+			height: 0.7rem;
+			margin-top: 0.3rem;
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+		}
+		
+		.zichan span{
+			color: #d9d9d9;
+			font-size: 0.2rem;
+		}
+		.zichan p{
+			color: #FFFFFF;
+			font-weight: 500;
+			font-size: 0.26rem;
+		}
+		
+		.zichan >div{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		
+		.zhuanz{
+			height: 1.15rem;
+			padding: 0 0.3rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.zhuanz >p{
+			font-size: 0.36rem;
+			color: #FFFFFF;
+		}
+		.zhuanz >div{
+			font-size: 0.28rem;
+			color: #FFFFFF;
+		}
+		
+		.myrecharge{
+			flex: 1;
+			background-color: #1f222d;
+		}
+		
+		.btns{
+			width: 100%;
+			height: 0.88rem;
+			position: fixed;
+			bottom: 0.2rem;
+			display: flex;
+			justify-content: space-around;
+		}
+		.btns >div{
+			width: 3.3rem;
+			height: 0.85rem;
+			line-height: 0.85rem;
+			text-align: center;
+			font-size: 0.3rem;
+		}
+		.cz{
+			background-color: #FFFFFF;
+			color: #000;
+		}
+		.tx{
+			background-color: #3e4856;
+			color: #FFFFFF;
+		}
+		.jilu{
+			flex: 1;
+			height: 6.7rem;
+			overflow: auto;
+			margin-bottom: 1.1rem;
+		}
+		
+		.forwordList{
+			height: 2.15rem;
+			border-bottom: 0.01rem solid #303340;
+			width: 6.9rem;
+			margin: auto;
+			padding-right: 0.3rem;
+			background: url(/static/common/user/diandian.png) no-repeat right 0.9rem;
+			background-position: right;
+			background-size: 0.06rem 0.34rem;
+		}
+		.forwordList >p{
+			font-size: 0.34rem;
+			color: #FFFFFF;
+			margin-top: 0.2rem;
+		}
+		
+		.smallList{
+			height: 0.8rem;
+			display: flex;
+			justify-content: space-between;
+			font-size: 0.24rem;
+			color: #FFFFFF;
+			margin-top: 0.35rem;
+		}
+		.smallList >div{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			
+		}
+		
+		.smallList >div span{
+			color: #d9d9d9;
+		}
+		
+		
+		
